@@ -10,6 +10,10 @@ def index():
 def destytojas():
     return render_template("destytojas.html")
 
+@app.route('/lina/')
+def destytojas():
+    return render_template("lina.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
