@@ -11,7 +11,7 @@ def destytojas():
     return render_template("destytojas.html")
 
 @app.route('/lina/')
-def destytojas():
+def lina():
     return render_template("lina.html")
 
 
